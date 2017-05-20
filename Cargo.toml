@@ -1,0 +1,12 @@
+[package]
+name = "algfinder"
+version = "0.1.0"
+authors = ["Andreas Halkjær From <s144442@student.dtu.dk>"]
+
+[dependencies]
+clipboard = "0.3.0"
+rayon = "0.7.0"
+
+[dependencies.conrod]
+version = "0.52.0"
+features = ["glium", "winit"]
