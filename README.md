@@ -18,3 +18,9 @@ The program will then find every algorithm, the shortest first, that solve the c
 Here we are searching for solutions to the classical "Sune" case.
 
 ![Screenshot of the program](https://raw.githubusercontent.com/andreasfrom/algfinder/master/screenshot.png)
+
+# Executables
+
+- [64-bit Windows](https://github.com/andreasfrom/algfinder/raw/master/executables/algfinder.exe)
+- [macOS](https://github.com/andreasfrom/algfinder/raw/master/executables/algfinder_macos)
+
