@@ -360,8 +360,8 @@ pub fn main() {
 
             // Search results
 
-            let alg_font_size = (0.03 * ui.win_w) as u32;
-            let depth_font_size = (0.032 * ui.win_w) as u32;
+            let alg_font_size = std::cmp::min((0.03 * ui.win_w) as u32, 24);
+            let depth_font_size = std::cmp::min((0.032 * ui.win_w) as u32, 28);
 
             let (mut items, scrollbar) = widget::List::flow_down(search_results.len())
                 .item_size(1.6 * alg_font_size as conrod::Scalar)
